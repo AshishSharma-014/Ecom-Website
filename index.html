@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NEW GOOD LUCK FURNITURE</title>
+  <meta name="description" content="NEW GOOD LUCK FURNITURE — Modern furniture for every room. Elegant designs, durable builds, and fair prices." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="container nav">
+      <a class="brand" href="#home" aria-label="NEW GOOD LUCK FURNITURE home">
+        <span class="logo" aria-hidden="true"></span>
+        <span>
+          NEW GOOD LUCK<br>
+          <small>FURNITURE</small>
+        </span>
+      </a>
+
+      <button class="btn menu-btn" id="menuBtn" aria-expanded="false" aria-controls="primaryNav">Menu</button>
+
+      <nav id="primaryNav" aria-label="Primary">
+        <ul>
+          <li><a href="#categories">Categories</a></li>
+          <li><a href="#featured">Featured</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#testimonials">Reviews</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-cta">
+        <a class="btn ghost" href="#featured">Browse</a>
+        <a class="btn primary" href="#contact">Get Quote</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero container" id="home">
+    <div class="hero-inner">
+      <div class="hero-card" data-animate>
+        <div class="hero-badge"><span class="tag">Trending • 2025</span></div>
+        <h1 class="headline">Elevate your space with elegant, durable, <span style="color:var(--pink-600)">made‑to‑last</span> furniture.</h1>
+        <p class="sub">From cozy sofas to smart storage, our collections blend modern style with everyday comfort — all at fair prices.</p>
+        <div style="display:flex; gap:12px; margin-top:14px">
+          <a class="btn primary" href="#featured">Shop Featured</a>
+          <a class="btn ghost" href="#categories">Explore Categories</a>
+        </div>
+        <ul style="display:flex; gap:18px; padding-left:0; margin-top:16px; list-style:none; color:var(--ink-500); font-size:14px">
+          <li>Free design consult</li>
+          <li>2‑year warranty</li>
+          <li>Pan‑India delivery</li>
+        </ul>
+      </div>
+      <div class="hero-figure" data-animate>
+        <span class="blob" aria-hidden="true"></span>
+        <!-- Replace the stock image URLs with your own product shots -->
+        <img src="https://images.unsplash.com/photo-1493666438817-866a91353ca9?q=80&w=1600&auto=format&fit=crop" alt="Modern living room with pink accent sofa">
+      </div>
+    </div>
+  </section>
+
+  <!-- Categories slider -->
+  <section class="section" id="categories">
+    <div class="container">
+      <h2 data-animate>Shop by category</h2>
+      <p class="lead" data-animate>Find the perfect piece for every room—living, bedroom, office and more.</p>
+      <div class="slider" data-animate>
+        <div class="slides" id="slides">
+          <!-- Slide -->
+          <article class="slide">
+            <img src="https://images.unsplash.com/photo-1505691723518-36a5ac3b2cb5?q=80&w=1600&auto=format&fit=crop" alt="Sofa category">
+            <div class="meta">
+              <strong>Sofas & Sectionals</strong>
+              <p style="margin:6px 0 0; color:var(--ink-500); font-size:14px">Plush comfort, timeless shapes.</p>
+            </div>
+          </article>
+          <article class="slide">
+            <img src="https://images.unsplash.com/photo-1582582621959-48d543a10846?q=80&w=1600&auto=format&fit=crop" alt="Beds category">
+            <div class="meta">
+              <strong>Beds</strong>
+              <p style="margin:6px 0 0; color:var(--ink-500); font-size:14px">Sleep better, live better.</p>
+            </div>
+          </article>
+          <article class="slide">
+            <img src="https://images.unsplash.com/photo-1493809842364-78817add7ffb?q=80&w=1600&auto=format&fit=crop" alt="Tables category">
+            <div class="meta">
+              <strong>Tables</strong>
+              <p style="margin:6px 0 0; color:var(--ink-500); font-size:14px">Coffee, side & dining.</p>
+            </div>
+          </article>
+          <article class="slide">
+            <img src="https://images.unsplash.com/photo-1582582622007-1bfd3c9ab80d?q=80&w=1600&auto=format&fit=crop" alt="Chairs category">
+            <div class="meta">
+              <strong>Chairs</strong>
+              <p style="margin:6px 0 0; color:var(--ink-500); font-size:14px">From lounge to office.</p>
+            </div>
+          </article>
+          <article class="slide">
+            <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=1600&auto=format&fit=crop" alt="Storage category">
+            <div class="meta">
+              <strong>Storage</strong>
+              <p style="margin:6px 0 0; color:var(--ink-500); font-size:14px">Wardrobes & cabinets.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured products grid -->
+  <section class="section" id="featured">
+    <div class="container">
+      <h2 data-animate>Featured picks</h2>
+      <p class="lead" data-animate>Best‑sellers our customers love right now.</p>
+      <div class="grid cards">
+        <!-- Card -->
+        <article class="card" data-animate>
+          <img src="https://images.unsplash.com/photo-1540574163026-643ea20ade25?q=80&w=1600&auto=format&fit=crop" alt="Scandi Sofa">
+          <div class="body">
+            <strong>Scandi Cloud Sofa</strong>
+            <span class="price">₹24,990</span>
+            <p style="margin:0; color:var(--ink-500)">Bouclé fabric • 3‑seater • Soft foam</p>
+            <a class="btn ghost" href="#contact">Enquire</a>
+          </div>
+        </article>
+        <article class="card" data-animate>
+          <img src="https://images.unsplash.com/photo-1540518614846-7eded433c457?q=80&w=1600&auto=format&fit=crop" alt="Oak Dining">
+          <div class="body">
+            <strong>Oak Dining Set (6)</strong>
+            <span class="price">₹32,500</span>
+            <p style="margin:0; color:var(--ink-500)">Solid wood • Water‑resistant finish</p>
+            <a class="btn ghost" href="#contact">Enquire</a>
+          </div>
+        </article>
+        <article class="card" data-animate>
+          <img src="https://images.unsplash.com/photo-1520880867055-1e30d1cb001c?q=80&w=1600&auto=format&fit=crop" alt="Work Desk">
+          <div class="body">
+            <strong>Minimal Work Desk</strong>
+            <span class="price">₹9,990</span>
+            <p style="margin:0; color:var(--ink-500)">Cable‑managed • Metal frame</p>
+            <a class="btn ghost" href="#contact">Enquire</a>
+          </div>
+        </article>
+        <article class="card" data-animate>
+          <img src="https://images.unsplash.com/photo-1501045661006-fcebe0257c3f?q=80&w=1600&auto=format&fit=crop" alt="Bed">
+          <div class="body">
+            <strong>Upholstered Queen Bed</strong>
+            <span class="price">₹21,500</span>
+            <p style="margin:0; color:var(--ink-500)">Hydraulic storage • Soft headboard</p>
+            <a class="btn ghost" href="#contact">Enquire</a>
+          </div>
+        </article>
+        <article class="card" data-animate>
+          <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?q=80&w=1600&auto=format&fit=crop" alt="Cabinet">
+          <div class="body">
+            <strong>Dual‑tone TV Unit</strong>
+            <span class="price">₹12,990</span>
+            <p style="margin:0; color:var(--ink-500)">Open & closed storage</p>
+            <a class="btn ghost" href="#contact">Enquire</a>
+          </div>
+        </article>
+        <article class="card" data-animate>
+          <img src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=1600&auto=format&fit=crop" alt="Chair">
+          <div class="body">
+            <strong>Arched Lounge Chair</strong>
+            <span class="price">₹7,450</span>
+            <p style="margin:0; color:var(--ink-500)">Ergonomic • Stain‑resistant</p>
+            <a class="btn ghost" href="#contact">Enquire</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="section" id="about">
+    <div class="container about">
+      <div class="pic" data-animate>
+        <img src="https://images.unsplash.com/photo-1519710164239-da123dc03ef4?q=80&w=1600&auto=format&fit=crop" alt="Crafting furniture">
+      </div>
+      <div data-animate>
+        <h2>Crafted with care, built to last</h2>
+        <p class="lead">We’re a family‑run brand based in India, blending modern design with solid materials. Every piece is quality‑checked and delivered with care.</p>
+        <ul style="padding-left:18px; margin:0; color:var(--ink-700)">
+          <li>Premium woods & durable fabrics</li>
+          <li>Custom sizes & finishes on request</li>
+          <li>Transparent pricing and quick support</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="section" id="testimonials">
+    <div class="container">
+      <h2 data-animate>Loved by customers</h2>
+      <p class="lead" data-animate>Real reviews from homes we’ve furnished.</p>
+      <div class="grid testis">
+        <div class="testi" data-animate>
+          <p>“Beautiful finish and amazing comfort. The sofa transformed our living room!”</p>
+          <div class="who">
+            <span class="avatar" aria-hidden="true"></span>
+            <div><strong>Ananya</strong><br><small style="color:var(--ink-300)">Mumbai</small></div>
+          </div>
+        </div>
+        <div class="testi" data-animate>
+          <p>“Great quality at a fair price. Delivery was on time and hassle‑free.”</p>
+          <div class="who">
+            <span class="avatar" aria-hidden="true"></span>
+            <div><strong>Rohit</strong><br><small style="color:var(--ink-300)">Delhi</small></div>
+          </div>
+        </div>
+        <div class="testi" data-animate>
+          <p>“Custom wardrobe fit perfectly. Team was super helpful with measurements.”</p>
+          <div class="who">
+            <span class="avatar" aria-hidden="true"></span>
+            <div><strong>Simran</strong><br><small style="color:var(--ink-300)">Pune</small></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="section" id="contact">
+    <div class="container">
+      <h2 data-animate>Get a quick quote</h2>
+      <p class="lead" data-animate>Tell us what you’re looking for—we’ll reply within 24 hours.</p>
+      <div class="grid" style="grid-template-columns: 1.1fr .9fr; align-items:start; gap:24px">
+        <form class="hero-card" id="quoteForm" data-animate>
+          <div class="grid" style="grid-template-columns: 1fr 1fr; gap:12px">
+            <div>
+              <label for="name" style="font-size:14px">Name</label>
+              <input id="name" name="name" placeholder="Your full name" required>
+            </div>
+            <div>
+              <label for="phone" style="font-size:14px">Phone</label>
+              <input id="phone" name="phone" placeholder="WhatsApp / phone" required>
+            </div>
+          </div>
+          <div>
+            <label for="email" style="font-size:14px">Email</label>
+            <input id="email" type="email" name="email" placeholder="name@example.com">
+          </div>
+          <div>
+            <label for="msg" style="font-size:14px">What do you need?</label>
+            <textarea id="msg" name="message" rows="4" placeholder="E.g., 3‑seater sofa in blush pink, delivery to Jaipur" required></textarea>
+          </div>
+          <button class="btn primary" type="submit">Request Quote</button>
+          <p id="formNote" style="margin:8px 0 0; font-size:14px; color:var(--ink-500)">This demo stores nothing—hook it to your backend or Google Form.</p>
+        </form>
+        <div class="hero-card" data-animate>
+          <strong>Showroom</strong>
+          <p style="margin:.4rem 0 1rem; color:var(--ink-500)">NEW GOOD LUCK FURNITURE<br>MG Road, Jaipur, Rajasthan</p>
+          <div class="grid" style="grid-template-columns:1fr 1fr">
+            <div>
+              <span class="tag">Call</span>
+              <p style="margin:.4rem 0 0">+91 98XX‑XXX‑XXX</p>
+            </div>
+            <div>
+              <span class="tag">Hours</span>
+              <p style="margin:.4rem 0 0">10:00 – 20:00 IST</p>
+            </div>
+          </div>
+          <div style="height:180px; border-radius:12px; overflow:hidden; margin-top:12px">
+            <!-- Replace src with your embedded map if you have one -->
+            <img src="https://images.unsplash.com/photo-1460353581641-37baddab0fa2?q=80&w=1600&auto=format&fit=crop" alt="Map placeholder" style="width:100%; height:100%; object-fit:cover">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container foot">
+      <div style="display:flex; align-items:center; gap:10px">
+        <span class="logo" aria-hidden="true" style="width:26px; height:26px"></span>
+        <span>© <span id="yr"></span> NEW GOOD LUCK FURNITURE</span>
+      </div>
+      <div class="social">
+        <a href="#" aria-label="Instagram">Instagram</a>
+        <a href="#" aria-label="Facebook">Facebook</a>
+        <a href="#" aria-label="WhatsApp">WhatsApp</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Sticky mobile nav toggle
+    const menuBtn = document.getElementById('menuBtn');
+    const primaryNav = document.getElementById('primaryNav');
+    menuBtn?.addEventListener('click', () => {
+      const open = primaryNav.classList.toggle('open');
+      menuBtn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+
+    // Smooth in-view animations
+    const els = document.querySelectorAll('[data-animate]');
+    const io = new IntersectionObserver((entries)=>{
+      entries.forEach(e=>{ if(e.isIntersecting) e.target.classList.add('in'); });
+    },{ threshold:.14 });
+    els.forEach(el=>io.observe(el));
+
+    // Auto‑scroll slider on larger screens
+    const slides = document.getElementById('slides');
+    let autoScroll;
+    function startAuto(){
+      stopAuto();
+      autoScroll = setInterval(()=>{
+        slides.scrollBy({ left: 300, behavior: 'smooth' });
+        if (Math.abs(slides.scrollWidth - slides.clientWidth - slides.scrollLeft) < 2){
+          slides.scrollTo({ left: 0, behavior: 'smooth' });
+        }
+      }, 2500);
+    }
+    function stopAuto(){ if(autoScroll) clearInterval(autoScroll); }
+    if (window.matchMedia('(min-width: 720px)').matches){ startAuto(); }
+    slides.addEventListener('pointerdown', stopAuto);
+    slides.addEventListener('pointerup', startAuto);
+
+    // Simple demo submit handler
+    const form = document.getElementById('quoteForm');
+    const note = document.getElementById('formNote');
+    form?.addEventListener('submit', (e)=>{
+      e.preventDefault();
+      note.textContent = 'Thanks! We\'ll get back to you shortly.';
+      form.reset();
+    });
+
+    // Year in footer
+    document.getElementById('yr').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
